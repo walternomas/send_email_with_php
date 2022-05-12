@@ -1,2 +1,2 @@
-# send_email_with_php
-PHP code for sending email using PHPMail and vlucas/phpdotenv
+# Send email with php and GMail
+PHP code for sending email using PHPMail, GMail and vlucas/phpdotenv
