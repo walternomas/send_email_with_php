@@ -20,6 +20,7 @@ function sendMail($subject, $body, $email, $name, $html = false) {
     $phpmailer->Port = $_ENV['MAIL_PORT'];
     $phpmailer->Username = $_ENV['MAIL_USERNAME'];
     $phpmailer->Password = $_ENV['MAIL_PASSWORD'];
+    $phpmailer->CharSet = PHPMailer::CHARSET_UTF8;
 
     //Recipients
     $phpmailer->setFrom($_ENV['MAIL_FROM'], $_ENV['MAIL_FROM_TEXT']);
